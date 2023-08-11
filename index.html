@@ -1,0 +1,43 @@
+# I will start by creating a basic HTML structure for the website.
+
+html_code = """
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translation Webpage</title>
+    <!-- Including Bootstrap CSS for styling -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container mt-5">
+    <!-- History Translation Record Section -->
+    <div class="mb-5">
+        <h3>歷史翻譯紀錄</h3>
+        <ul id="translation-history" class="list-group">
+            <!-- Example list item -->
+            <li class="list-group-item">Example translation record</li>
+        </ul>
+    </div>
+
+    <!-- Fixed Input Box at the Bottom -->
+    <div class="fixed-bottom mb-2">
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="輸入文字...">
+            <div class="input-group-append">
+                <button class="btn btn-primary" type="button">翻譯</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Including Bootstrap JS and jQuery for interactivity -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+"""
+
+html_code
